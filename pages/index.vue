@@ -10,13 +10,14 @@ const imea = new URL('@/assets/img/imea.jpg', import.meta.url).href
 const dumlipinar = new URL('@/assets/img/dumlupinar.png', import.meta.url).href
 const rudn = new URL('@/assets/img/rudn.jpg', import.meta.url).href
 const bakuuniversity = new URL('@/assets/img/bakustateuniversity.jpg', import.meta.url).href
+const photo92 = new URL('@/assets/img/92-photo.JPG', import.meta.url).href
 </script>
 
 <template>
   <div id="tooplate_main">
     <div id="home" class="main_box">
       <h1>Welcome to Official Site</h1>
-      <img src="@/assets/img/92-photo.JPG" alt="image" class="img_frame img_float_l" width="221px" height="200px" />
+      <img :src="photo92" alt="image" class="img_frame img_float_l" width="221px" height="200px" />
 
       <p align="justify" style="text-align: right">
         <em>

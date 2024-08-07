@@ -1,3 +1,7 @@
+<script setup>
+const formula3 = new URL('@/assets/img/formula3.jpg', import.meta.url).href
+</script>
+
 <template>
   <div id="tooplate_main">
     <div id="about" class="main_box">
@@ -69,7 +73,7 @@
         </tr>
       </table>
 
-      <img src="@/assets/img/formula3.jpg" class="img_float_r img_frame" />
+      <img :src="formula3" class="img_float_r img_frame" />
 
       <div class="cleaner"></div>
     </div>
