@@ -3,7 +3,7 @@
     <div id="about" class="main_box">
       <h1>About</h1>
 
-      <img src="/img/94-vagif-guliyev.jpg" alt="image" class="img_float_r img_frame" />
+      <img src="../public/img/94-vagif-guliyev.jpg" alt="image" class="img_float_r img_frame" />
 
       <ul>
         <li>Date of birth: 22 Feb 1957</li>
@@ -64,7 +64,7 @@
         <h3><em>Official Recommendations</em></h3>
         <ul class="tooplate_list">
           <li>
-            <img src="/img/Besov.jpg" alt="image" class="img_float_r img_frame" />
+            <img src="../public/img/Besov.jpg" alt="image" class="img_float_r img_frame" />
             <a href="http://www.mi-ras.ru/~besov/" target="_blank" rel="nofollow">
               <em><strong>Besov Oleg Vladimirovich</strong> </em>
             </a>
@@ -72,12 +72,12 @@
             <br />
             Doctor of Sciences, <br />Correspondence Member of Russian Academy of Sciences
             <a href="/pdf/vagifguliyev_ref1_ru.pdf" target="_blank" title="Reference from O.V.Besov in Russian">
-              <img src="/img/pdf_ru.png" height="60px" width="60px" />
+              <img src="../public/img/pdf_ru.png" height="60px" width="60px" />
             </a>
           </li>
 
           <li>
-            <img src="/img/Victor_Burenkov.jpg" alt="image" class="img_float_r img_frame" />
+            <img src="../public/img/Victor_Burenkov.jpg" alt="image" class="img_float_r img_frame" />
             <a href="http://www.enu.kz/ru/lica-enu/burenkov-viktor-ivanovich/" target="_blank" rel="nofollow">
               <em><strong>Burenkov Victor Ivanovich</strong> </em>
             </a>
@@ -87,19 +87,19 @@
             Vice-President of
             <a href="http://isaacmath.org/home/" target="_blank"> <em title="The International Society for Analysis, its Applications and Computation">ISAAC</em> </a><br />
             <a href="/pdf/vagifguliyev_ref2_ru.pdf" target="_blank" title="Reference from V.I.Burenkov in RUSSIAN">
-              <img src="/img/pdf_ru.png" height="60px" width="60px" />
+              <img src="../public/img/pdf_ru.png" height="60px" width="60px" />
             </a>
             <a href="/pdf/vagifguliyev_ref1_ru.pdf" target="_blank">Open PDF</a>
           </li>
 
           <li>
-            <img src="/img/reshyug.jpg" alt="image" class="img_float_r img_frame" />
+            <img src="../public/img/reshyug.jpg" alt="image" class="img_float_r img_frame" />
             <a href="http://www.math.nsc.ru/LBRT/u2/nauka/reshetny.html" target="_blank" rel="nofollow">
               <em><strong>Reshetnyak Yurii Grigorievich </strong></em>
             </a>
             <br />Professor, <br />Full member of Russian Academy of Sciences <br />
             <a href="/pdf/vagifguliyev_ref1_ru.pdf" target="_blank" title="Reference from O.V.Besov in Russian">
-              <img src="/img/pdf_ru.png" height="60px" width="60px" />
+              <img src="../public/img/pdf_ru.png" height="60px" width="60px" />
             </a>
           </li>
 
@@ -107,15 +107,15 @@
             <a href="http://w3.ualg.pt/~ssamko/" target="_blank" rel="nofollow">
               <em><strong>Samko Stefan Grigorievich</strong></em>
             </a>
-            <img src="/img/samko.jpg" alt="image" class="img_float_r img_frame" />
+            <img src="../public/img/samko.jpg" alt="image" class="img_float_r img_frame" />
             <br />Professor of <br />
             University of Algarve Portugal, <br />Professor of <br />Federal Southern University <br />
             Russia <br />
             <a href="/pdf/vagifguliyev_ref4_ru.pdf" target="_blank" title="Reference from S.G.SAMKO in RUSSIAN">
-              <img src="/img/pdf_ru.png" height="60px" width="60px" />
+              <img src="../public/img/pdf_ru.png" height="60px" width="60px" />
             </a>
             <a href="/pdf/vagifguliyev_ref4_en.pdf" target="_blank" title="Reference from S.G.SAMKO in ENGLISH">
-              <img src="/img/pdf_en.png" height="60px" width="60px" />
+              <img src="../public/img/pdf_en.png" height="60px" width="60px" />
             </a>
           </li>
         </ul>

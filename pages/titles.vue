@@ -69,7 +69,7 @@
         </tr>
       </table>
 
-      <img src="/img/formula3.jpg" class="img_float_r img_frame" />
+      <img src="../public/img/formula3.jpg" class="img_float_r img_frame" />
 
       <div class="cleaner"></div>
     </div>
