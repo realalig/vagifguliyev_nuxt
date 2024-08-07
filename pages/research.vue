@@ -13,7 +13,7 @@
         <li>Modern problems of harmonic analysis in Laplace, Laguerre, Genegbauer, Dunkl and such</li>
         <li>Regularity properties of elliptic and parabolic differential equations with VMO coefficients</li>
       </ul>
-      <img src="../public/img/93-Vagif Guliyev2.jpg" alt="image" class="img_float_r img_frame" />
+      <img src="@/assets/img/93-Vagif Guliyev2.jpg" alt="image" class="img_float_r img_frame" />
 
       <div class="cleaner"></div>
     </div>

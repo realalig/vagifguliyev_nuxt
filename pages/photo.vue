@@ -50,7 +50,7 @@ export default {
       '5.jpg',
     ])
     const getImageSrc = (filename) => {
-      return new URL(`../public/img/gallery/${filename}`, import.meta.url).href
+      return new URL(`../assets/img/gallery/${filename}`, import.meta.url).href
     }
     return {
       onSwiper,

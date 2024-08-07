@@ -11,7 +11,7 @@ body {
   font-size: 12px;
   line-height: 1.4em;
   background-color: #a09c93;
-  background-image: url(img/template/tooplate_body.jpg);
+  background-image: url(@/assets/img/template/tooplate_body.jpg);
   background-repeat: repeat-y;
   background-position: center;
 }
@@ -36,7 +36,7 @@ a.gototop {
   font-size: 10px;
   color: #000;
   font-weight: 700;
-  background: url(img/template/gototop.png) no-repeat bottom center;
+  background: url(@/assets/img/template/gototop.png) no-repeat bottom center;
 }
 
 p {
@@ -131,7 +131,7 @@ h6 {
 /* .divider {
   margin-bottom: 40px;
   padding-bottom: 20px;
-  background: url(img/template/tooplate_divider.png) repeat-x bottom;
+  background: url(@/assets/img/template/tooplate_divider.png) repeat-x bottom;
 } */
 
 .float_l {
@@ -150,7 +150,7 @@ h6 {
   color: #302d26;
   margin: 0 0 10px 0;
   padding: 0 5px 0 0;
-  background: url(img/template/tooplate_list.png) no-repeat scroll 0 5px;
+  background: url(@/assets/img/template/tooplate_list.png) no-repeat scroll 0 5px;
 }
 .tooplate_list li a {
   color: #302d26;
@@ -185,7 +185,7 @@ h6 {
   width: 220px;
   height: 60px;
   padding: 20px 10px;
-  background: url(img/template/tooplate_header.jpg) no-repeat;
+  background: url(@/assets/img/template/tooplate_header.jpg) no-repeat;
 }
 #site_title a {
   font-size: 24px;
@@ -225,7 +225,7 @@ h6 {
   padding: 0 10px 0 20px;
   height: 20px;
   line-height: 20px;
-  background: url(img/template/tooplate_menu_item_bgl.png) left repeat;
+  background: url(@/assets/img/template/tooplate_menu_item_bgl.png) left repeat;
 }
 #tooplate_menu ul li a span {
   position: absolute;
@@ -233,7 +233,7 @@ h6 {
   height: 39px;
   top: 0;
   right: 0px;
-  background: url(img/template/tooplate_menu_item_bgr.png);
+  background: url(@/assets/img/template/tooplate_menu_item_bgr.png);
 }
 
 #tooplate_menu ul li a:hover {
@@ -251,14 +251,14 @@ h6 {
   font-size: 38px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  background: url(img/template/header.png) repeat-x bottom;
+  background: url(@/assets/img/template/header.png) repeat-x bottom;
 }
 
 /* .main_box {
   min-height: 600px;
   padding: 30px 0;
   margin-bottom: 30px;
-  background: url(img/template/divider.png) repeat-x bottom;
+  background: url(@/assets/img/template/divider.png) repeat-x bottom;
 } */
 
 .img_float_l {

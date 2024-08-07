@@ -45,8 +45,8 @@
           </td>
         </tr>
       </table>
-      <img src="../public/img/91-guliyev-vagif-passport-photo.jpg" class="img_float_r img_frame" />
-      <img src="../public/img/formula2.jpg" class="img_float_r img_frame" />
+      <img src="@/assets/img/91-guliyev-vagif-passport-photo.jpg" class="img_float_r img_frame" />
+      <img src="@/assets/img/formula2.jpg" class="img_float_r img_frame" />
 
       <div class="cleaner"></div>
     </div>
