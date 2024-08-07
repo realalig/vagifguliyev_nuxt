@@ -239,4 +239,12 @@
 img {
   width: 100%;
 }
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 20px;
+}
 </style>
