@@ -3,12 +3,12 @@
     <div id="about" class="main_box">
       <h1>Awards, Honours and Projects</h1>
 
-      <img src="@/assets/img/nato-logo.jpg" class="img_float_r img_frame" />
-      <img src="@/assets/img/tubitak.jpg" class="img_float_r img_frame" />
-      <img src="@/assets/img/crdf.png" class="img_float_r img_frame" />
-      <img src="@/assets/img/intas.png" class="img_float_r img_frame" />
-      <img src="@/assets/img/ahi-evran.png" class="img_float_r img_frame" />
-      <img src="@/assets/img/amea2.jpg" class="img_float_r img_frame" />
+      <img src="/img/nato-logo.jpg" class="img_float_r img_frame" />
+      <img src="/img/tubitak.jpg" class="img_float_r img_frame" />
+      <img src="/img/crdf.png" class="img_float_r img_frame" />
+      <img src="/img/intas.png" class="img_float_r img_frame" />
+      <img src="/img/ahi-evran.png" class="img_float_r img_frame" />
+      <img src="/img/amea2.jpg" class="img_float_r img_frame" />
 
       <h3><em>Honours and Awards</em></h3>
       <ul>

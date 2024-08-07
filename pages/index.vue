@@ -8,7 +8,7 @@ useHead({
   <div id="tooplate_main">
     <div id="home" class="main_box">
       <h1>Welcome to Official Site</h1>
-      <img src="@/assets/img/92-photo.JPG" alt="image" class="img_frame img_float_l" width="221px" height="200px" />
+      <img src="/img/92-photo.JPG" alt="image" class="img_frame img_float_l" width="221px" height="200px" />
 
       <p align="justify" style="text-align: right">
         <em>
@@ -27,20 +27,18 @@ useHead({
       <h5>Full CV can be downloaded as</h5>
 
       <a href="/pdf/vagifguliyev_cv.pdf" target="_blank" title="PDF File CV Vagif Guliyev">
-        <img src="@/assets/img/download-pdf-button-1.png" height="60px" width="60px" />
+        <img src="/img/download-pdf-button-1.png" height="60px" width="60px" />
       </a>
 
       <h3>
         <em>Useful Links</em>
       </h3>
 
-      <a href="http://www.science.gov.az/forms/chlenyikorrespondentyi/1364" target="_blank"><img src="@/assets/img/amea.jpg" /></a>
-      <a href="http://www.imm.az/exp/jubilees/corresponding-member-of-anas-vagif-guliyev-is-60/?lang=en" target="_blank"
-        ><img src="@/assets/img/Vagif-Guliyev-60-yubiley.jpg" /><img src="@/assets/img/imea.jpg"
-      /></a>
-      <a href="http://www.dumlupinar.edu.tr/" target="_blank"><img src="@/assets/img/dumlupinar.png" /> </a>
-      <a href="http://www.rudn.ru/science/research-institutes/matematicheskiy-institut-im-s-nikolskogo" target="_blank"><img src="@/assets/img/rudn.jpg" /> </a>
-      <a href="http://bsu.edu.az/en/" target="_blank"><img src="@/assets/img/bakustateuniversity.jpg" /></a>
+      <a href="http://www.science.gov.az/forms/chlenyikorrespondentyi/1364" target="_blank"><img src="/img/amea.jpg" /></a>
+      <a href="http://www.imm.az/exp/jubilees/corresponding-member-of-anas-vagif-guliyev-is-60/?lang=en" target="_blank"><img src="/img/Vagif-Guliyev-60-yubiley.jpg" /><img src="/img/imea.jpg" /></a>
+      <a href="http://www.dumlupinar.edu.tr/" target="_blank"><img src="/img/dumlupinar.png" /> </a>
+      <a href="http://www.rudn.ru/science/research-institutes/matematicheskiy-institut-im-s-nikolskogo" target="_blank"><img src="/img/rudn.jpg" /> </a>
+      <a href="http://bsu.edu.az/en/" target="_blank"><img src="/img/bakustateuniversity.jpg" /></a>
 
       <!--
 			<h3><em>Related Links</em></h3>
