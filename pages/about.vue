@@ -1,5 +1,11 @@
 <script setup>
 const besovImage = new URL('@/assets/img/Besov.jpg', import.meta.url).href
+const pdfRu = new URL('@/assets/img/pdf_ru.png', import.meta.url).href
+const vagifguliyev94 = new URL('@/assets/img/94-vagif-guliyev.jpg', import.meta.url).href
+const viktorburenkov = new URL('@/assets/img/Victor_Burenkov.jpg', import.meta.url).href
+const reshyug = new URL('@/assets/img/reshyug.jpg', import.meta.url).href
+const samko = new URL('@/assets/img/samko.jpg', import.meta.url).href
+const pdfen = new URL('@/assets/img/pdf_en.png', import.meta.url).href
 </script>
 
 <template>
@@ -7,7 +13,7 @@ const besovImage = new URL('@/assets/img/Besov.jpg', import.meta.url).href
     <div id="about" class="main_box">
       <h1>About</h1>
 
-      <img src="@/assets/img/94-vagif-guliyev.jpg" alt="image" class="img_float_r img_frame" />
+      <img :src="vagifguliyev94" alt="image" class="img_float_r img_frame" />
 
       <ul>
         <li>Date of birth: 22 Feb 1957</li>
@@ -76,12 +82,12 @@ const besovImage = new URL('@/assets/img/Besov.jpg', import.meta.url).href
             <br />
             Doctor of Sciences, <br />Correspondence Member of Russian Academy of Sciences
             <a href="/pdf/vagifguliyev_ref1_ru.pdf" target="_blank" title="Reference from O.V.Besov in Russian">
-              <img src="@/assets/img/pdf_ru.png" height="60px" width="60px" />
+              <img :src="pdfRu" height="60px" width="60px" />
             </a>
           </li>
 
           <li>
-            <img src="@/assets/img/Victor_Burenkov.jpg" alt="image" class="img_float_r img_frame" />
+            <img :src="viktorburenkov" alt="image" class="img_float_r img_frame" />
             <a href="http://www.enu.kz/ru/lica-enu/burenkov-viktor-ivanovich/" target="_blank" rel="nofollow">
               <em><strong>Burenkov Victor Ivanovich</strong> </em>
             </a>
@@ -91,19 +97,19 @@ const besovImage = new URL('@/assets/img/Besov.jpg', import.meta.url).href
             Vice-President of
             <a href="http://isaacmath.org/home/" target="_blank"> <em title="The International Society for Analysis, its Applications and Computation">ISAAC</em> </a><br />
             <a href="/pdf/vagifguliyev_ref2_ru.pdf" target="_blank" title="Reference from V.I.Burenkov in RUSSIAN">
-              <img src="@/assets/img/pdf_ru.png" height="60px" width="60px" />
+              <img :src="pdfRu" height="60px" width="60px" />
             </a>
             <a href="/pdf/vagifguliyev_ref1_ru.pdf" target="_blank">Open PDF</a>
           </li>
 
           <li>
-            <img src="@/assets/img/reshyug.jpg" alt="image" class="img_float_r img_frame" />
+            <img :src="reshyug" alt="image" class="img_float_r img_frame" />
             <a href="http://www.math.nsc.ru/LBRT/u2/nauka/reshetny.html" target="_blank" rel="nofollow">
               <em><strong>Reshetnyak Yurii Grigorievich </strong></em>
             </a>
             <br />Professor, <br />Full member of Russian Academy of Sciences <br />
             <a href="/pdf/vagifguliyev_ref1_ru.pdf" target="_blank" title="Reference from O.V.Besov in Russian">
-              <img src="@/assets/img/pdf_ru.png" height="60px" width="60px" />
+              <img :src="pdfRu" height="60px" width="60px" />
             </a>
           </li>
 
@@ -111,15 +117,15 @@ const besovImage = new URL('@/assets/img/Besov.jpg', import.meta.url).href
             <a href="http://w3.ualg.pt/~ssamko/" target="_blank" rel="nofollow">
               <em><strong>Samko Stefan Grigorievich</strong></em>
             </a>
-            <img src="@/assets/img/samko.jpg" alt="image" class="img_float_r img_frame" />
+            <img :src="samko" alt="image" class="img_float_r img_frame" />
             <br />Professor of <br />
             University of Algarve Portugal, <br />Professor of <br />Federal Southern University <br />
             Russia <br />
             <a href="/pdf/vagifguliyev_ref4_ru.pdf" target="_blank" title="Reference from S.G.SAMKO in RUSSIAN">
-              <img src="@/assets/img/pdf_ru.png" height="60px" width="60px" />
+              <img :src="pdfRu" height="60px" width="60px" />
             </a>
             <a href="/pdf/vagifguliyev_ref4_en.pdf" target="_blank" title="Reference from S.G.SAMKO in ENGLISH">
-              <img src="@/assets/img/pdf_en.png" height="60px" width="60px" />
+              <img :src="pdfen" height="60px" width="60px" />
             </a>
           </li>
         </ul>

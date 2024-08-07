@@ -2,6 +2,14 @@
 useHead({
   title: 'Prof. Dr. Vagif S. Guliyev',
 })
+
+const downloadpdfbutton1 = new URL('@/assets/img/download-pdf-button-1.png', import.meta.url).href
+const VagifGuliyev60yubiley = new URL('@/assets/img/Vagif-Guliyev-60-yubiley.jpg', import.meta.url).href
+const amea = new URL('@/assets/img/amea.jpg', import.meta.url).href
+const imea = new URL('@/assets/img/imea.jpg', import.meta.url).href
+const dumlipinar = new URL('@/assets/img/dumlupinar.png', import.meta.url).href
+const rudn = new URL('@/assets/img/rudn.jpg', import.meta.url).href
+const bakuuniversity = new URL('@/assets/img/bakustateuniversity.jpg', import.meta.url).href
 </script>
 
 <template>
@@ -27,20 +35,18 @@ useHead({
       <h5>Full CV can be downloaded as</h5>
 
       <a href="/pdf/vagifguliyev_cv.pdf" target="_blank" title="PDF File CV Vagif Guliyev">
-        <img src="@/assets/img/download-pdf-button-1.png" height="60px" width="60px" />
+        <img :src="downloadpdfbutton1" height="60px" width="60px" />
       </a>
 
       <h3>
         <em>Useful Links</em>
       </h3>
 
-      <a href="http://www.science.gov.az/forms/chlenyikorrespondentyi/1364" target="_blank"><img src="@/assets/img/amea.jpg" /></a>
-      <a href="http://www.imm.az/exp/jubilees/corresponding-member-of-anas-vagif-guliyev-is-60/?lang=en" target="_blank"
-        ><img src="@/assets/img/Vagif-Guliyev-60-yubiley.jpg" /><img src="@/assets/img/imea.jpg"
-      /></a>
-      <a href="http://www.dumlupinar.edu.tr/" target="_blank"><img src="@/assets/img/dumlupinar.png" /> </a>
-      <a href="http://www.rudn.ru/science/research-institutes/matematicheskiy-institut-im-s-nikolskogo" target="_blank"><img src="@/assets/img/rudn.jpg" /> </a>
-      <a href="http://bsu.edu.az/en/" target="_blank"><img src="@/assets/img/bakustateuniversity.jpg" /></a>
+      <a href="http://www.science.gov.az/forms/chlenyikorrespondentyi/1364" target="_blank"><img :src="amea" /></a>
+      <a href="http://www.imm.az/exp/jubilees/corresponding-member-of-anas-vagif-guliyev-is-60/?lang=en" target="_blank"><img :src="VagifGuliyev60yubiley" /><img :src="imea" /></a>
+      <a href="http://www.dumlupinar.edu.tr/" target="_blank"><img :src="dumlipinar" /> </a>
+      <a href="http://www.rudn.ru/science/research-institutes/matematicheskiy-institut-im-s-nikolskogo" target="_blank"><img :src="rudn" /> </a>
+      <a href="http://bsu.edu.az/en/" target="_blank"><img :src="bakuuniversity" /></a>
 
       <!--
 			<h3><em>Related Links</em></h3>
