@@ -1,3 +1,8 @@
+<script setup>
+const guliyevvagifpasswordphoto = new URL('@/assets/img/91-guliyev-vagif-passport-photo.jpg', import.meta.url).href
+const formula2 = new URL('@/assets/img/formula2.jpg', import.meta.url).href
+</script>
+
 <template>
   <div id="tooplate_main">
     <div id="about" class="main_box">
@@ -45,8 +50,8 @@
           </td>
         </tr>
       </table>
-      <img src="@/assets/img/91-guliyev-vagif-passport-photo.jpg" class="img_float_r img_frame" />
-      <img src="@/assets/img/formula2.jpg" class="img_float_r img_frame" />
+      <img :src="guliyevvagifpasswordphoto" class="img_float_r img_frame" />
+      <img :src="formula2" class="img_float_r img_frame" />
 
       <div class="cleaner"></div>
     </div>
