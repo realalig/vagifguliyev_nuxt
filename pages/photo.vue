@@ -1,5 +1,66 @@
-<script setup>
-// lightGallery(document.getElementById('lightgallery'))
+<script>
+// import Swiper core and required modules
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules'
+
+// Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from 'swiper/vue'
+
+// Import Swiper styles
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+import 'swiper/css/scrollbar'
+
+// Import Swiper styles
+export default {
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
+  setup() {
+    const onSwiper = (swiper) => {
+      console.log(swiper)
+    }
+    const onSlideChange = () => {
+      console.log('slide change')
+    }
+    const images = ref([
+      '1-1.jpg',
+      '1-2.jpg',
+      '1-3.jpg',
+      '1-4.jpg',
+      '1-5.jpg',
+      '1-6.jpg',
+      '1-7.jpg',
+      '1-8.jpg',
+      '2-1.jpg',
+      '2-2.jpg',
+      '2-3.jpg',
+      '2-4.jpg',
+      '3-1.jpg',
+      '4.jpg',
+      '4-1.jpg',
+      '4-2.jpg',
+      '4-3.jpg',
+      '4-5.jpg',
+      '4-6.jpg',
+      '4-7.jpg',
+      '4-8.jpg',
+      '5-1.jpg',
+      '5.jpg',
+    ])
+    const getImageSrc = (filename) => {
+      return new URL(`../assets/img/gallery/${filename}`, import.meta.url).href
+    }
+    return {
+      onSwiper,
+      onSlideChange,
+      modules: [Navigation, Pagination, Scrollbar, A11y],
+      images,
+      getImageSrc,
+    }
+  },
+}
 </script>
 
 <template>
@@ -9,227 +70,19 @@
       Here you can find different photos from different conferences, seminars, workshops and academic visits.
 
       <div class="demo-gallery">
-        <ul id="lightgallery" class="list-unstyled row">
-          <li class="col-xs-6 col-sm-4 col-md-3" data-src="@/assets/img/gallery/1-1.jpg" data-sub-html="Text0" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
-            <img class="img-responsive" src="@/assets/img/gallery/1-1.jpg" alt="Thumb-1" />
-          </li>
-          <li
-            class="col-xs-6 col-sm-4 col-md-3"
-            data-responsive="img/2-375.jpg 375, img/2-480.jpg 480, img/2.jpg 800"
-            data-src="@/assets/img/gallery/1-2.jpg"
-            data-sub-html="Text1"
-            data-pinterest-text="Pin it1"
-            data-tweet-text="share on twitter 1">
-            <img class="img-responsive" src="@/assets/img/gallery/1-2.jpg" alt="Thumb-2" />
-          </li>
-          <li
-            class="col-xs-6 col-sm-4 col-md-3"
-            data-responsive="img/13-375.jpg 375, img/13-480.jpg 480, img/13.jpg 800"
-            data-src="@/assets/img/gallery/1-3.jpg"
-            data-sub-html="Text2"
-            data-pinterest-text="Pin it1"
-            data-tweet-text="share on twitter 1">
-            <img class="img-responsive" src="@/assets/img/gallery/1-3.jpg" alt="Thumb-3" />
-          </li>
-          <li
-            class="col-xs-6 col-sm-4 col-md-3"
-            data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800"
-            data-src="@/assets/img/gallery/1-4.jpg"
-            data-sub-html="Text3"
-            data-pinterest-text="Pin it1"
-            data-tweet-text="share on twitter 1">
-            <img class="img-responsive" src="@/assets/img/gallery/1-4.jpg" alt="Thumb-4" />
-          </li>
-
-          <li
-            class="col-xs-6 col-sm-4 col-md-3"
-            data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800"
-            data-src="@/assets/img/gallery/1-5.jpg"
-            data-sub-html="Text4"
-            data-pinterest-text="Pin it1"
-            data-tweet-text="share on twitter 1">
-            <img class="img-responsive" src="@/assets/img/gallery/1-5.jpg" alt="Thumb-4" />
-          </li>
-
-          <li
-            class="col-xs-6 col-sm-4 col-md-3"
-            data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800"
-            data-src="@/assets/img/gallery/1-6.jpg"
-            data-sub-html="Text5"
-            data-pinterest-text="Pin it1"
-            data-tweet-text="share on twitter 1">
-            <img class="img-responsive" src="@/assets/img/gallery/1-6.jpg" alt="Thumb-4" />
-          </li>
-
-          <li
-            class="col-xs-6 col-sm-4 col-md-3"
-            data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800"
-            data-src="@/assets/img/gallery/1-7.jpg"
-            data-sub-html="Text6"
-            data-pinterest-text="Pin it1"
-            data-tweet-text="share on twitter 1">
-            <img class="img-responsive" src="@/assets/img/gallery/1-7.jpg" alt="Thumb-4" />
-          </li>
-
-          <li
-            class="col-xs-6 col-sm-4 col-md-3"
-            data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800"
-            data-src="@/assets/img/gallery/1-8.jpg"
-            data-sub-html="Text7"
-            data-pinterest-text="Pin it1"
-            data-tweet-text="share on twitter 1">
-            <img class="img-responsive" src="@/assets/img/gallery/1-8.jpg" alt="Thumb-4" />
-          </li>
-
-          <li
-            class="col-xs-6 col-sm-4 col-md-3"
-            data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800"
-            data-src="@/assets/img/gallery/2-1.jpg"
-            data-sub-html="Text8"
-            data-pinterest-text="Pin it1"
-            data-tweet-text="share on twitter 1">
-            <img class="img-responsive" src="@/assets/img/gallery/2-1.jpg" alt="Thumb-4" />
-          </li>
-
-          <li
-            class="col-xs-6 col-sm-4 col-md-3"
-            data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800"
-            data-src="@/assets/img/gallery/2-2.jpg"
-            data-sub-html="Text9"
-            data-pinterest-text="Pin it1"
-            data-tweet-text="share on twitter 1">
-            <img class="img-responsive" src="@/assets/img/gallery/2-2.jpg" alt="Thumb-4" />
-          </li>
-
-          <li
-            class="col-xs-6 col-sm-4 col-md-3"
-            data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800"
-            data-src="@/assets/img/gallery/2-3.jpg"
-            data-sub-html="Text10"
-            data-pinterest-text="Pin it1"
-            data-tweet-text="share on twitter 1">
-            <img class="img-responsive" src="@/assets/img/gallery/2-3.jpg" alt="Thumb-4" />
-          </li>
-          <li
-            class="col-xs-6 col-sm-4 col-md-3"
-            data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800"
-            data-src="@/assets/img/gallery/2-4.jpg"
-            data-sub-html="Text11"
-            data-pinterest-text="Pin it1"
-            data-tweet-text="share on twitter 1">
-            <img class="img-responsive" src="@/assets/img/gallery/2-4.jpg" alt="Thumb-4" />
-          </li>
-
-          <li
-            class="col-xs-6 col-sm-4 col-md-3"
-            data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800"
-            data-src="@/assets/img/gallery/3-1.JPG"
-            data-sub-html="Text12"
-            data-pinterest-text="Pin it1"
-            data-tweet-text="share on twitter 1">
-            <img class="img-responsive" src="@/assets/img/gallery/3-1.JPG" alt="Thumb-4" />
-          </li>
-
-          <li
-            class="col-xs-6 col-sm-4 col-md-3"
-            data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800 "
-            data-src="@/assets/img/gallery/4.JPG"
-            data-sub-html="Text13 "
-            data-pinterest-text="Pin it1 "
-            data-tweet-text="share on twitter 1 ">
-            <img class="img-responsive" src="@/assets/img/gallery/4.JPG" alt="Thumb-4 " />
-          </li>
-
-          <li
-            class="col-xs-6 col-sm-4 col-md-3"
-            data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800 "
-            data-src="@/assets/img/gallery/4-1.JPG"
-            data-sub-html="Text14 "
-            data-pinterest-text="Pin it1 "
-            data-tweet-text="share on twitter 1 ">
-            <img class="img-responsive" src="@/assets/img/gallery/4-1.JPG " alt="Thumb-4 " />
-          </li>
-
-          <li
-            class="col-xs-6 col-sm-4 col-md-3"
-            data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800 "
-            data-src="@/assets/img/gallery/4-2.JPG"
-            data-sub-html="Text15 "
-            data-pinterest-text="Pin it1 "
-            data-tweet-text="share on twitter 1 ">
-            <img class="img-responsive" src="@/assets/img/gallery/4-2.JPG" alt="Thumb-4 " />
-          </li>
-
-          <li
-            class="col-xs-6 col-sm-4 col-md-3"
-            data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800 "
-            data-src="@/assets/img/gallery/4-3.JPG"
-            data-sub-html="Text16 "
-            data-pinterest-text="Pin it1 "
-            data-tweet-text="share on twitter 1 ">
-            <img class="img-responsive" src="@/assets/img/gallery/4-3.JPG" alt="Thumb-4 " />
-          </li>
-
-          <li
-            class="col-xs-6 col-sm-4 col-md-3"
-            data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800 "
-            data-src="@/assets/img/gallery/4-5.JPG"
-            data-sub-html="Text17"
-            data-pinterest-text="Pin it1 "
-            data-tweet-text="share on twitter 1 ">
-            <img class="img-responsive" src="@/assets/img/gallery/4-5.JPG" alt="Thumb-4 " />
-          </li>
-
-          <li
-            class="col-xs-6 col-sm-4 col-md-3"
-            data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800 "
-            data-src="@/assets/img/gallery/4-6.JPG"
-            data-sub-html="Text18"
-            data-pinterest-text="Pin it1 "
-            data-tweet-text="share on twitter 1 ">
-            <img class="img-responsive" src="@/assets/img/gallery/4-6.JPG" alt="Thumb-4 " />
-          </li>
-
-          <li
-            class="col-xs-6 col-sm-4 col-md-3"
-            data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800 "
-            data-src="@/assets/img/gallery/4-7.JPG"
-            data-sub-html="Text19 "
-            data-pinterest-text="Pin it1 "
-            data-tweet-text="share on twitter 1 ">
-            <img class="img-responsive" src="@/assets/img/gallery/4-7.JPG" alt="Thumb-4 " />
-          </li>
-
-          <li
-            class="col-xs-6 col-sm-4 col-md-3"
-            data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800 "
-            data-src="@/assets/img/gallery/4-8.JPG"
-            data-sub-html="Text20 "
-            data-pinterest-text="Pin it1 "
-            data-tweet-text="share on twitter 1 ">
-            <img class="img-responsive" src="@/assets/img/gallery/4-8.JPG" alt="Thumb-4 " />
-          </li>
-
-          <li
-            class="col-xs-6 col-sm-4 col-md-3"
-            data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800 "
-            data-src="@/assets/img/gallery/5.JPG"
-            data-sub-html="Text21 "
-            data-pinterest-text="Pin it1 "
-            data-tweet-text="share on twitter 1 ">
-            <img class="img-responsive" src="@/assets/img/gallery/5.JPG" alt="Thumb-4 " />
-          </li>
-
-          <li
-            class="col-xs-6 col-sm-4 col-md-3"
-            data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800 "
-            data-src="@/assets/img/gallery/5-1.JPG "
-            data-sub-html="Text22 "
-            data-pinterest-text="Pin it1 "
-            data-tweet-text="share on twitter 1 ">
-            <img class="img-responsive" src="@/assets/img/gallery/5-1.JPG" alt="Thumb-4 " />
-          </li>
-        </ul>
+        <swiper
+          :modules="modules"
+          :slides-per-view="1"
+          :space-between="50"
+          navigation
+          :pagination="{ clickable: true }"
+          :scrollbar="{ draggable: true }"
+          @swiper="onSwiper"
+          @slideChange="onSlideChange">
+          <swiper-slide v-for="img in images" :key="img">
+            <img :src="getImageSrc(img)" alt="" />
+          </swiper-slide>
+        </swiper>
       </div>
     </div>
   </div>
