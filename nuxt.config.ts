@@ -8,11 +8,10 @@ export default defineNuxtConfig({
   css: ['./assets/css/tooplate_style.css'],
   // modules: ['@nuxt/ui'],
   components: true,
-  ssr: false,
+  ssr: true, // Change this to true
   target: 'static',
   nitro: {
     preset: 'netlify',
-    static: true,
   },
   generate: {
     fallback: true,

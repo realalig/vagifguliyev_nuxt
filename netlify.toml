@@ -1,8 +1,8 @@
 [build]
-  command = "pnpm i && pnpm run generate"
-  publish = "dist"
+  command = "pnpm i && pnpm run build"
+  publish = ".output/public"
 
 [build.environment]
-  NODE_VERSION = "20.15.1"
+  NODE_VERSION = "20"
   NPM_FLAGS = "--version"
   NITRO_PRESET = "netlify"
