@@ -1,3 +1,9 @@
+<script setup>
+useHead({
+  title: 'Prof. Dr. Vagif S. Guliyev',
+})
+</script>
+
 <template>
   <div id="tooplate_main">
     <div id="home" class="main_box">
