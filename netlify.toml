@@ -1,8 +1,11 @@
 [build]
-  command = "pnpm i && pnpm run build"
+  command = "pnpm run build"
   publish = ".output/public"
 
 [build.environment]
   NODE_VERSION = "20"
-  NPM_FLAGS = "--version"
-  NITRO_PRESET = "netlify"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
