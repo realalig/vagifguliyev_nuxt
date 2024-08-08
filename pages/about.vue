@@ -1,5 +1,5 @@
 <script setup>
-const besovImage = new URL('@/assets/img/Besov.jpg', import.meta.url).href
+const besovImage = new URL('@/assets/img/besov.jpg', import.meta.url).href
 const pdfRu = new URL('@/assets/img/pdf_ru.png', import.meta.url).href
 const vagifguliyev94 = new URL('@/assets/img/94-vagif-guliyev.jpg', import.meta.url).href
 const viktorburenkov = new URL('@/assets/img/victor_burenkov.jpg', import.meta.url).href
