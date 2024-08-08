@@ -1528,22 +1528,21 @@
         </li>
         <li>
           <b><font color="#910A0A">V.S. Guliyev</font></b
-          >, <b>(<font color="white">2024</font>)</b> "Boundedness of the anisotropic fractional maximal operator in total anisotropic Morrey spaces", Trans. Natl. Acad. Sci. Azerb. Ser. Phys.-Tech.
-          Math. Sci., Mathematics, 44 (1) pp. 41-50
+          >, F.A. Isayev, A. Serbetci, <b>(<font color="white">2024</font>)</b> "Boundedness of the anisotropic fractional maximal operator in total anisotropic Morrey spaces", Trans. Natl. Acad. Sci.
+          Azerb. Ser. Phys.-Tech. Math. Sci., Mathematics, 44 (1) pp. 41-50
         </li>
         <li>
           <b><font color="#910A0A">V.S. Guliyev</font></b
-          >, F.A. Isayev, A. Serbetci, <b>(<font color="white">2024</font>)</b> "Generalized local Morrey regularity of elliptic systems", SOCAR Proceedings, 24 (0) pp. 131-136 [ESCI]
+          >, A. Serbetci, <b>(<font color="white">2024</font>)</b> "Generalized local Morrey regularity of elliptic systems", SOCAR Proceedings, 24 (0) pp. 131-136 [ESCI]
         </li>
         <li>
           <b><font color="#910A0A">V.S. Guliyev</font></b
-          >, A. Serbetci, <b>(<font color="white">2024</font>)</b> "Weighted Sobolev-Morrey Regularity of Solutions to Variational Inequalities", Azerbaijan Journal of Mathematics, 14 (1) pp. 94-108
-          [ESCI]
+          >, I. Ekincioglu, A. Serbetci, <b>(<font color="white">2024</font>)</b> "Weighted Sobolev-Morrey Regularity of Solutions to Variational Inequalities", Azerbaijan Journal of Mathematics, 14
+          (1) pp. 94-108 [ESCI]
         </li>
         <li>
           <b><font color="#910A0A">V.S. Guliyev</font></b
-          >, A. Serbetci, I. Ekincioglu, <b>(<font color="white">2024</font>)</b> "Characterizations for the fractional maximal operator and its commutators on total Morrey spaces", Positivty, 28 (42)
-          [Scopus]
+          >, <b>(<font color="white">2024</font>)</b> "Characterizations for the fractional maximal operator and its commutators on total Morrey spaces", Positivty, 28 (42) [Scopus]
         </li>
         <li>
           <b><font color="#910A0A">V.S. Guliyev</font></b
