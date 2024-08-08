@@ -4,13 +4,13 @@ useHead({
 })
 
 const downloadpdfbutton1 = new URL('@/assets/img/download-pdf-button-1.png', import.meta.url).href
-const VagifGuliyev60yubiley = new URL('@/assets/img/Vagif-Guliyev-60-yubiley.jpg', import.meta.url).href
+const VagifGuliyev60yubiley = new URL('@/assets/img/vagif-guliyev-60-yubiley.jpg', import.meta.url).href
 const amea = new URL('@/assets/img/amea.jpg', import.meta.url).href
 const imea = new URL('@/assets/img/imea.jpg', import.meta.url).href
 const dumlipinar = new URL('@/assets/img/dumlupinar.png', import.meta.url).href
 const rudn = new URL('@/assets/img/rudn.jpg', import.meta.url).href
 const bakuuniversity = new URL('@/assets/img/bakustateuniversity.jpg', import.meta.url).href
-const photo92 = new URL('@/assets/img/92-photo.JPG', import.meta.url).href
+const photo92 = new URL('@/assets/img/92photo.JPG', import.meta.url).href
 </script>
 
 <template>

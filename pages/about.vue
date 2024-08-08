@@ -2,7 +2,7 @@
 const besovImage = new URL('@/assets/img/Besov.jpg', import.meta.url).href
 const pdfRu = new URL('@/assets/img/pdf_ru.png', import.meta.url).href
 const vagifguliyev94 = new URL('@/assets/img/94-vagif-guliyev.jpg', import.meta.url).href
-const viktorburenkov = new URL('@/assets/img/Victor_Burenkov.jpg', import.meta.url).href
+const viktorburenkov = new URL('@/assets/img/victor_burenkov.jpg', import.meta.url).href
 const reshyug = new URL('@/assets/img/reshyug.jpg', import.meta.url).href
 const samko = new URL('@/assets/img/samko.jpg', import.meta.url).href
 const pdfen = new URL('@/assets/img/pdf_en.png', import.meta.url).href
