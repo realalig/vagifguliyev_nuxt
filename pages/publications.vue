@@ -1521,37 +1521,39 @@
         </li>
         <li>
           <b><font color="#910A0A">V.S. Guliyev</font></b
-          >, Aykol, C., Kucukaslan, A., Serbetci, A. <b>(<font color="white">2024</font>)</b> "Fractional maximal operator in the local Morrey--Lorentz spaces and some applications", Afrika
-          Matematika, 35 (1)
-          <br />
-          <a href="https://link.springer.com/article/10.1007/s11117-023-01023-2" target="_blank">https://link.springer.com/article/10.1007/s11117-023-01023-2</a>
-        </li>
-        <li>
-          <b>(<font color="white">2024</font>)</b> "Characterizations of Lipschitz functions via the commutators of maximal function in total Morrey spaces", Mathematical Methods in the Applied
+          >, <b>(<font color="white">2024</font>)</b> "Characterizations of Lipschitz functions via the commutators of maximal function in total Morrey spaces", Mathematical Methods in the Applied
           Sciences, 47 (11) pp. 8669-8682
           <br />
           <a href="https://onlinelibrary.wiley.com/doi/10.1002/mma.10038" target="_blank">https://onlinelibrary.wiley.com/doi/10.1002/mma.10038</a>
         </li>
         <li>
-          <b>(<font color="white">2024</font>)</b> "Boundedness of the anisotropic fractional maximal operator in total anisotropic Morrey spaces", Trans. Natl. Acad. Sci. Azerb. Ser. Phys.-Tech.
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, <b>(<font color="white">2024</font>)</b> "Boundedness of the anisotropic fractional maximal operator in total anisotropic Morrey spaces", Trans. Natl. Acad. Sci. Azerb. Ser. Phys.-Tech.
           Math. Sci., Mathematics, 44 (1) pp. 41-50
         </li>
         <li>
-          <b>(<font color="white">2024</font>)</b> "Generalized local Morrey regularity of elliptic systems", SOCAR Proceedings, 24 (0) pp. 131-136 [ESCI]
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, F.A. Isayev, A. Serbetci, <b>(<font color="white">2024</font>)</b> "Generalized local Morrey regularity of elliptic systems", SOCAR Proceedings, 24 (0) pp. 131-136 [ESCI]
         </li>
         <li>
-          <b>(<font color="white">2024</font>)</b> "Weighted Sobolev-Morrey Regularity of Solutions to Variational Inequalities", Azerbaijan Journal of Mathematics, 14 (1) pp. 94-108 [ESCI]
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, A. Serbetci, <b>(<font color="white">2024</font>)</b> "Weighted Sobolev-Morrey Regularity of Solutions to Variational Inequalities", Azerbaijan Journal of Mathematics, 14 (1) pp. 94-108
+          [ESCI]
         </li>
         <li>
-          <b>(<font color="white">2024</font>)</b> "Characterizations for the fractional maximal operator and its commutators on total Morrey spaces", Positivty, 28 (42) [Scopus]
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, A. Serbetci, I. Ekincioglu, <b>(<font color="white">2024</font>)</b> "Characterizations for the fractional maximal operator and its commutators on total Morrey spaces", Positivty, 28 (42)
+          [Scopus]
         </li>
         <li>
-          <b>(<font color="white">2024</font>)</b> "Generalized Holder estimates via generalized Morrey norms for some ultraparabolic operators", Analysis Mathematical Physics, 24 (4) [SCI]
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, <b>(<font color="white">2024</font>)</b> "Generalized Holder estimates via generalized Morrey norms for some ultraparabolic operators", Analysis Mathematical Physics, 24 (4) [SCI]
           <br />
           <a href="https://link.springer.com/article/10.1007/s13324-024-00941-y" target="_blank">https://link.springer.com/article/10.1007/s13324-024-00941-y</a>
         </li>
         <li>
-          <b>(<font color="white">2025</font>)</b> "Generalized Holder Estimates via Generalized Morrey Norms for Kolmogorov Operators", Azerbaijan Journal of Mathematics, 15 (1) pp. 1-15 [ESCI]
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, <b>(<font color="white">2025</font>)</b> "Generalized Holder Estimates via Generalized Morrey Norms for Kolmogorov Operators", Azerbaijan Journal of Mathematics, 15 (1) pp. 1-15 [ESCI]
         </li>
       </ol>
 
