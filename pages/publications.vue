@@ -1284,6 +1284,275 @@
           <b><font color="#FFFFFF">2019</font></b
           >, 1-15.
         </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, A. Eroglu, G.A. Abasova, Characterization of parabolic fractional maximal function and its commutators in Orlicz spaces Springer Proceedings in Mathematics and
+          Statistics : Modern Methods, Problems and Applications of Operator Theory and Harmonic Analysis, vol. 291 <b>(<font color="#FFFFFF">2019</font>)</b>, 35-49. <b>(WoS, ESCI)</b>
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, A. Eroglu, G.A. Abasova, Characterization of parabolic fractional integral and its commutators in parabolic generalized OrliczMorrey spaces, Azerbaijan Journal of Mathematics 9 (1)
+          <b>(<font color="#FFFFFF">2019</font>)</b>, 92-107. <b>(WoS, ESCI)</b>
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, T.S. Gadjiev, A. Serbetçi, Regularity of solutions higher order elliptic equations in weighted generalized Morrey spaces, Nonlinear studies, Vol.26, No.4, pp.831-842,
+          <b>(<font color="#FFFFFF">2019</font>)</b>. <b>(WoS, ESCI)</b>
+        </li>
+        <li>
+          R.A. Bandaliyev, <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, Embedding theorems between variable exponent Morrey spaces, Mathematical Notes 106 (4) <b>(<font color="#FFFFFF">2019</font>)</b>, 488-500.
+          <b>(WoS, ESCI)</b>
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, I. Ekincioglu, A.A. Ahmadli, M.N. Omarova, Global regularity in Orlicz-Morrey spaces of solutions to parabolic equations with VMO coefficients, Journal of Pseudo-Differential Operators
+          and Applications 11 (4) <b>(<font color="#FFFFFF">2020</font>)</b>, 1963-1989. <b>(WoS, IF-0.532) Q4</b>
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, R.V. Guliyev, M.N. Omarova, M.A. Ragusa, Schrödinger type operators on local generalized Morrey spaces related to certain nonnegative potentials, Discrete and Continuous Dynamical
+          Systems-Series B, 25 (2) <b>(<font color="#FFFFFF">2020</font>)</b>, 671-690. <b>(WoS, IF-1.270) Q2</b>
+        </li>
+        <li>
+          T.S. Gadjiev, <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, K.G. Suleymanova, The Dirichlet problem for the uniformly elliptic equation in generalized weighted Morrey spaces, Studia Scientiarum Mathematicarum Hungarica 57 (1)
+          <b>(<font color="#FFFFFF">2020</font>)</b>, 68-90. <b>(WoS, IF-0.468) Q4</b>
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, A. Ahmadli, S.E. Ekincioglu, Oscillatory integrals with variable Calderón-Zygmund kernel on vanishing generalized Morrey spaces, Tbilisi Math. J. 13
+          <b>(<font color="#FFFFFF">2020</font>)</b>, no. 1, 69–82. <b>(WoS, ESCI)</b>
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, H. Armutcu, T. Azeroglu, Characterizations for the potential operators on Carleson curves in local generalized Morrey spaces, Open Mathematics 18 (1)
+          <b>(<font color="#FFFFFF">2020</font>)</b>, 1317-1331. <b>(WoS, IF-0.773) Q3</b>
+        </li>
+        <li>
+          I. Ekincioglu, <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, Esra Kaya, -Maximal operator and -singular integral operators on variable exponent Lebesgue spaces, Math. Slovaca 70(4) <b>(<font color="#FFFFFF">2020</font>)</b>, 893-902.
+          <b>(WoS, IF-0.654) Q3</b>
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, A. Kucukaslan, C. Aykol, A. Serbetci, Riesz potential in the local Morrey–Lorentz spaces and some applications, Georgian Math. J. 27 <b>(<font color="#FFFFFF">2020</font>)</b>, no. 4,
+          557–567. <b>(WoS, IF-0.500) Q4</b>
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, Y.Y. Mammadov, F.A. Muslumova, Boundedness Characterization of Maximal Commutators on Orlicz Spaces in the Dunkl Setting, J. Math. Study, 53 (1)
+          <b>(<font color="#FFFFFF">2020</font>)</b>, 45-65.<b>(WoS, ESCI)</b>
+        </li>
+        <li>
+          A. Eroglu, G.A. Abasova, <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, Spanne type characterization of parabolic fractional maximal function and its commutators in parabolic generalized Orlicz-Morrey spaces, Springer Proceedings in Mathematics and
+          Statistics: (Vol.1) Operator Theory and Harmonic Analysis. Vol. 1: New General Trends and Advances of the Theory, <b>(<font color="#FFFFFF">2020</font>)</b>, 35-49. <b>(Wos, ESCI)</b>
+        </li>
+        <li>
+          A. Akbulut, V.I.Burenkov, <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, Anisotropic fractional maximal commutators with BMO functions on anisotropic Morrey-type spaces, Trans. Natl. Acad. Sci. Azerb. Ser. Phys.-Tech. Math. Sci. 40 (4), Mathematics, 13-32
+          <b>(<font color="#FFFFFF">2020</font>)</b>, <b>(SCOPUS)</b>
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, E.J. Ibrahimov, S.E. Ekincioglu, S.Ar. Jafarova, O’Neil inequality for convolutions associated with Gegenbauer differential operator and some applications, J. Math. Study, 53 (1)
+          <b>(<font color="#FFFFFF">2020</font>)</b>, 90-124. <b>(WoS, ESCI)</b>
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, Generalized Sobolev–Morrey estimates for hypoelliptic operators on homogeneous groups, Revista de la Real Academia de Ciencias Exactas, Físicas y Naturales. Serie A. Matemáticas, 115 (2)
+          <b>(<font color="#FFFFFF">2021</font>)</b>, Paper No. 69, 23 pp. <b>(impact factor 2.169) Q1</b>
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, M.N. Omarova, M.N. Ragusa, A. Scapellato, Regularity of solutions of elliptic equations in divergence form in modified local generalized Morrey spaces, Analysis and Mathematical Physics,
+          11 (2) <b>(<font color="#FFFFFF">2021</font>)</b>, Paper No. 13, 20 pp. <b>(IF-1.548) Q1</b>
+        </li>
+        <li>
+          F. Deringoz, K. Dorak, <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, A characterization for fractional maximal operator and its commutators in Orlicz and generalized Orlicz-Morrey spaces on spaces of homogeneous type, Analysis and Mathematical Physics, 11
+          (2) <b>(<font color="#FFFFFF">2021</font>)</b>, Paper No. 63, 30 pp. <b>(IF-1.548) Q1</b>
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, A.F. Ismayilova, Calderon-Zygmund operators with kernels of Dini's type and their multilinear commutators on generalized weighted Morrey spaces. TWMS J. Pure Appl. Math. 12(2)
+          <b>(<font color="#FFFFFF">2021</font>)</b>, 265–277. <b>IF-1.892 </b> Q1
+        </li>
+        <li>
+          R.A. Bandaliyev, P.Gorka, <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, Y. Sawano, Relatively compact sets in variable exponent Morrey spaces on metric spaces. Mediterranean Journal of Mathematics 18 (6) <b>(<font color="#FFFFFF">2021</font>)</b>, 232, 24 pp.
+          <b>IF-1.400</b> Q2
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, I. Ekincioglu, Characterizations for the fractional integral operator and its commutators in generalized weighted Morrey spaces on Carnot groups, Journal of Mathematical Inequalities, 15
+          (1) <b>(<font color="#FFFFFF">2021</font>)</b>, 151-171. <b>IF-1.225</b> Q2
+        </li>
+        <li>
+          T.S. Gadjiev, <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, Nonlinear elliptic equations with BMO coefficients in nonsmooth domain in generalized Morrey spaces. Journal of Mathematical Inequalities 15(2) <b>(<font color="#FFFFFF">2021</font>)</b>,
+          491-509. <b>IF-1.225</b> Q2
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, Calderon-Zygmund operators with kernels of Dini's type on generalized weighted variable exponent Morrey spaces. Positivity 25(5) <b>(<font color="#FFFFFF">2021</font>)</b>, 1-20.
+          <b>IF-1.030</b> Q2
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, Commutators of the fractional maximal function in generalized Morrey spaces on Carnot groups. Complex Variables and Elliptic Equations 66 (6-7) <b>(<font color="#FFFFFF">2021</font>)</b>,
+          893-909. <b>IF-0.846</b> Q3
+        </li>
+        <li>
+          V.I. Burenkov, <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, T.V. Tararykova, Comparison Morrey spaces and Nikol'skii spaces, Eurasian Mathematical Journal, 12 (1) <b>(<font color="#FFFFFF">2021</font>)</b>, 9-20. <b>(Wos, ESCI)</b>
+        </li>
+        <li>
+          Gadjiev, T. S.; <b><font color="#910A0A">Guliyev, V. S.</font></b
+          >; Ibrahimov, E. J. An initial-boundary value problem for systems of linear partial differential equations with a differential operator of Gegenbauer type. Trans. A. Razmadze Math. Inst. 175
+          <b>(<font color="#FFFFFF">2021</font>)</b>, no. 3, 1–9. <b>(Wos, ESCI)</b>
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, A.F. Ismayilova, Calderon-Zygmund operators with kernels of Dini's type and their multilinear commutators on generalized variable exponent Morrey spaces. Proceedings of the Institute of
+          Mathematics and Mechanics 47(2) <b>(<font color="#FFFFFF">2021</font>)</b>, 1–15. <b>(Wos, ESCI)</b>
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, A. Eroglu, G.A. Abasova, Spanne type characterization of parabolic fractional maximal function and its commutators in parabolic generalized Orlicz-Morrey spaces. Vol. 1, Operator Theory
+          and Harmonic Analysis, 161–178, Springer Proc. Math. Stat., 357, Springer, <b>(<font color="#FFFFFF">2021</font>)</b>, <b>WOS</b>
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, S.G. Samko, Commutator of fractional maximal operator in variable Lebesgue spaces over quasi-metric measure spaces, Mathematical Methods in the Applied Sciences
+          <b>(<font color="#FFFFFF">2022</font>)</b>, 1-17. <b>(IF-2.057)</b> Q1
+        </li>
+        <li>
+          A. Eroglu, G.A. Abasova, <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, Parabolic fractional maximal commutators with BMO function on Orlicz spaces, TWMS Jour. Pure Appl. Math. 12 (2) <b>(<font color="#FFFFFF">2022</font>)</b>, 1-14. <b>(IF-1.892)</b> Q1
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, Generalized weighted Sobolev-Morrey estimates for hypoelliptic operators with drift on homogeneous groups, Journal of Mathematical Inequalities 16
+          <b>(<font color="#FFFFFF">2022</font>)</b>, no. 1, 219-245. <b>(IF-1.225)</b> Q2
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, Y. Sawano, A note on the paper "Singular integral operators in generalized Morrey spaces on curves in the complex plane", Journal of Mathematical Inequalities 16
+          <b>(<font color="#FFFFFF">2022</font>)</b>, no. 1, 345-346. <b>(IF-1.225)</b> Q2
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, M.N. Omarova, Estimates for operators on generalized weighted Orlicz-Morrey spaces and their applications to non-divergence elliptic equations, Positivity 26 (2)
+          <b>(<font color="#FFFFFF">2022</font>)</b>, Paper No. 40, 27 pp. <b>(IF-1.030)</b> Q2
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, Some characterizations of BMO spaces via commutators in Orlicz spaces on stratified Lie groups, Results in Mathematics 77 (1) <b>(<font color="#FFFFFF">2022</font>)</b>, Paper No. 42.
+          <b>(IF-1.199)</b> Q2
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, F. Deringoz, Riesz potential and its commuta-tors on generalized weighted Orlicz-Morrey spaces, Mathematische Nachrichten 295 (4) <b>(<font color="#FFFFFF">2022</font>)</b>, 706-724.
+          <b>(IF-1.228)</b> Q2
+        </li>
+        <li>
+          I. Ekincioglu, <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, E.L. Shishkina, Fractional weighted spherical mean and maximal inequality for the weighted spherical mean and its application to singular PDE , J. Math. Sci. (N.Y.) 266
+          <b>(<font color="#FFFFFF">2022</font>)</b>, 744-764. <a target="_blank" href="https://doi.org/10.1007/s10958-022-06099-x">https://doi.org/10.1007/s10958-022-06099-x</a> <b>(Wos, ESCI)</b>
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, F.A. Isayev, A. Serbetci, Commutators of multilinear Calderon-Zygmund operators with kernels of Dini's type on generalized local Morrey spaces, Trans. Natl. Acad. Sci. Azerb. Ser.
+          Phys.-Tech. Math. Sci. 42 <b>(<font color="#FFFFFF">2022</font>)</b>, no. 4, Mathematics, 46-64. <b>(Scopus)</b>
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, M.N. Omarova, M.A.Ragusa, Characterizations for the genuine Calder\'{o}n-Zygmund operators and commutators on generalized Orlicz-Morrey spaces, Advances in Nonlinear Analysis 12
+          <b>(<font color="#FFFFFF">2023</font>)</b>, no. 1, anona 2022-0307. <b>(IF-4.200)</b> Q1
+        </li>
+        <li>
+          F. Deringoz, <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, M.N. Omarova, M.A.Ragusa, Calderón–Zygmund operators and their commutators on generalized weighted Orlicz–Morrey spaces, Bull. Math. Sci. 13 <b>(<font color="#FFFFFF">2023</font>)</b>,
+          no. 1, Paper No. 2250004, 26 pp. <b>(IF-1.485)</b> Q1
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, Characterizations of Lipschitz functions via the commutators of maximal function in Orlicz spaces on stratified Lie groups, Math. Inequal. Appl. 26
+          <b>(<font color="#FFFFFF">2023</font>)</b>, no. 2, 447–464. <b>(IF-1.000)</b> Q2
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, Commutators of multilinear Calderón-Zygmund operators with kernels of Dini's type on generalized weighted Morrey spaces and applications. Positivity 27
+          <b>(<font color="#FFFFFF">2023</font>)</b>, no. 1, Paper No. 13, 29 pp. <b>(IF-1.100)</b> Q2
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, A. Kucukaslan, V.S. Guliyev, C. Aykol, A. Serbetci, Maximal and Calderón–Zygmund operators on the local variable Morrey–Lorentz spaces and some applications, Applicable Analysis, 102
+          <b>(<font color="#FFFFFF">2023</font>)</b>, no. 2, 406–415. <b>(IF-1.100)</b> Q3
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, Some characterizations of BMO spaces via commutators of fractional maximal operator in Orlicz spaces over spaces of homogeneous type, Trans. A. Razmadze Math. Inst. 177
+          <b>(<font color="#FFFFFF">2023</font>)</b>, no. 2, 205-216. <b>(Wos, ESCI)</b>
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, S. Samko, S. Umarkhadzhiev, Grand Lebesgue spaces on quasi-metric measure spaces of infinite measure, J. Math. Sci. (N.Y.) <b>(<font color="#FFFFFF">2023</font>)</b>, <b>(Wos, ESCI)</b>
+          <br />
+          <a href="https://doi.org/10.1007/s10958-023-06578-9" target="_blank">https://doi.org/10.1007/s10958-023-06578-9</a>
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, Kocakuşaklı, C.A., Küçükaslan, A., Şerbetçi, A. <b>(<font color="white">2024</font>)</b> "Fractional maximal operator in the local Morrey–Lorentz spaces and some applications", Afrika
+          Matematika, 35 (4) pp. 1-11 [Scopus]
+          <a href="https://link.springer.com/article/10.1007/s13370-023-01145-6" target="_blank">https://link.springer.com/article/10.1007/s13370-023-01145-6</a>
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, Eroğlu, A., Abasova, G.A. <b>(<font color="white">2024</font>)</b> "Parabolic Fractional Maximal Commutators with BMO Function on Orlicz Spaces", TWMS Journal of Pure and Applied
+          Mathematics, 15 (1) pp. 3-14 [SCI Expanded]
+        </li>
+        <li>
+          Deringoz, F., <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, Nakai, E., Sawano, Y., Shi, M. <b>(<font color="white">2024</font>)</b> "Erratum to: Generalized fractional maximal and integral operators on Orlicz and generalized Orlicz--Morrey spaces
+          of the third kind", Positivity, 28 (3)
+        </li>
+        <li>
+          <b><font color="#910A0A">V.S. Guliyev</font></b
+          >, Aykol, C., Kucukaslan, A., Serbetci, A. <b>(<font color="white">2024</font>)</b> "Fractional maximal operator in the local Morrey--Lorentz spaces and some applications", Afrika
+          Matematika, 35 (1)
+          <br />
+          <a href="https://link.springer.com/article/10.1007/s11117-023-01023-2" target="_blank">https://link.springer.com/article/10.1007/s11117-023-01023-2</a>
+        </li>
+        <li>
+          <b>(<font color="white">2024</font>)</b> "Characterizations of Lipschitz functions via the commutators of maximal function in total Morrey spaces", Mathematical Methods in the Applied
+          Sciences, 47 (11) pp. 8669-8682
+          <br />
+          <a href="https://onlinelibrary.wiley.com/doi/10.1002/mma.10038" target="_blank">https://onlinelibrary.wiley.com/doi/10.1002/mma.10038</a>
+        </li>
+        <li>
+          <b>(<font color="white">2024</font>)</b> "Boundedness of the anisotropic fractional maximal operator in total anisotropic Morrey spaces", Trans. Natl. Acad. Sci. Azerb. Ser. Phys.-Tech.
+          Math. Sci., Mathematics, 44 (1) pp. 41-50
+        </li>
+        <li>
+          <b>(<font color="white">2024</font>)</b> "Generalized local Morrey regularity of elliptic systems", SOCAR Proceedings, 24 (0) pp. 131-136 [ESCI]
+        </li>
+        <li>
+          <b>(<font color="white">2024</font>)</b> "Weighted Sobolev-Morrey Regularity of Solutions to Variational Inequalities", Azerbaijan Journal of Mathematics, 14 (1) pp. 94-108 [ESCI]
+        </li>
+        <li>
+          <b>(<font color="white">2024</font>)</b> "Characterizations for the fractional maximal operator and its commutators on total Morrey spaces", Positivty, 28 (42) [Scopus]
+        </li>
+        <li>
+          <b>(<font color="white">2024</font>)</b> "Generalized Holder estimates via generalized Morrey norms for some ultraparabolic operators", Analysis Mathematical Physics, 24 (4) [SCI]
+          <br />
+          <a href="https://link.springer.com/article/10.1007/s13324-024-00941-y" target="_blank">https://link.springer.com/article/10.1007/s13324-024-00941-y</a>
+        </li>
+        <li>
+          <b>(<font color="white">2025</font>)</b> "Generalized Holder Estimates via Generalized Morrey Norms for Kolmogorov Operators", Azerbaijan Journal of Mathematics, 15 (1) pp. 1-15 [ESCI]
+        </li>
       </ol>
 
       <h2><em>Other Journal Publications</em></h2>
