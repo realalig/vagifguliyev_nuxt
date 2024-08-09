@@ -64,11 +64,19 @@ const formula3 = new URL('@/assets/img/formula3.jpg', import.meta.url).href
           </td>
         </tr>
         <tr>
-          <td>2019-present</td>
+          <td>2019-2022</td>
           <td>Visitor Professor</td>
           <td>
             Dumlipinar University<br />
             Kutahya, Turkey
+          </td>
+        </tr>
+        <tr>
+          <td>2024-present</td>
+          <td>Visitor Professor</td>
+          <td>
+            Ahi Evran University<br />
+            Kirsehir, Turkey
           </td>
         </tr>
       </table>
