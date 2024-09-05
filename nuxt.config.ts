@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   // plugins: ['~/plugins/lightGallery.js'],
-  modules: ['nuxt-swiper'],
+  modules: ['nuxt-swiper', '@nuxt/content', "@nuxt/image"],
   css: ['./assets/css/tooplate_style.css'],
   // modules: ['@nuxt/ui'],
   components: true,
@@ -16,4 +16,7 @@ export default defineNuxtConfig({
   generate: {
     fallback: true,
   },
+  content: {
+    documentDriven: true
+  }
 })
