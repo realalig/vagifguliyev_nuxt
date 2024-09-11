@@ -2,7 +2,6 @@
 const { data } = await useAsyncData("about", () =>
   queryContent("/about").findOne()
 );
-console.log(data.value);
 </script>
 
 <template>
@@ -83,6 +82,5 @@ console.log(data.value);
       <a href="#tooplate_main" class="gototop">Go To Top</a>
       <div class="cleaner"></div>
     </div>
-    <!-- END of about -->
   </div>
 </template>

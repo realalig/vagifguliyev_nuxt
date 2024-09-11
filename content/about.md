@@ -1,4 +1,5 @@
 ---
+title: "About - Prof. Dr. Vagif S. Guliyev"
 vagifguliyev94: "/img/94-vagif-guliyev.jpg"
 aboutList:
   [

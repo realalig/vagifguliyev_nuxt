@@ -1,26 +1,27 @@
 <script setup>
-const vagifguliyev2 = new URL('@/assets/img/93-vagif guliyev2.jpg', import.meta.url).href
+const { data } = await useAsyncData("research", () =>
+  queryContent("/research").findOne()
+);
 </script>
 
 <template>
   <div id="tooplate_main">
-    <div id="about" class="main_box">
+    <div id="research" class="main_box">
       <h1>Research</h1>
 
-      Dealing with in the following scientific fields of Mathematical Analysis:
+      {{ data.researchTitle }}
       <ul>
-        <li>Function spaces and integral operators on Lie groups or space of homogeneous type</li>
-        <li>Theory of Banach-valued Function spaces</li>
-        <li>Modern problems of harmonic analysis in local and global Morrey-type spaces</li>
-        <li>Two-weighted inequalities for integral operators of harmonic analysis</li>
-        <li>Theory of holomorphic and harmonic function spaces determined in many-dimensional complex domains</li>
-        <li>Modern problems of harmonic analysis in Laplace, Laguerre, Genegbauer, Dunkl and such</li>
-        <li>Regularity properties of elliptic and parabolic differential equations with VMO coefficients</li>
+        <li v-for="research in data.researchList" :key="research">
+          {{ research }}
+        </li>
       </ul>
-      <img :src="vagifguliyev2" alt="image" class="img_float_r img_frame" />
+      <img
+        :src="data.researchHeroImage"
+        alt="image"
+        class="img_float_r img_frame"
+      />
 
       <div class="cleaner"></div>
     </div>
-    <!-- END of about -->
   </div>
 </template>

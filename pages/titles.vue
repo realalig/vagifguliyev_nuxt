@@ -1,91 +1,35 @@
 <script setup>
-const formula3 = new URL('@/assets/img/formula3.jpg', import.meta.url).href
+const { data } = await useAsyncData("titles", () =>
+  queryContent("/titles").findOne()
+);
 </script>
 
 <template>
   <div id="tooplate_main">
-    <div id="about" class="main_box">
+    <div id="titles" class="main_box">
       <h1>Academic Titles & Work Experience</h1>
 
       <table style="width: 700px">
         <tr>
-          <th>Year</th>
-          <th>Title</th>
-          <th>University</th>
+          <th v-for="topRowEl in data.titlesTable.topRow" :key="topRowEl">
+            {{ topRowEl }}
+          </th>
         </tr>
-        <tr>
-          <td>1978-1983</td>
-          <td>Senior Research Scientist</td>
+        <tr v-for="dataRowEl in data.titlesTable.dataRows" :key="dataRowEl">
+          <td>{{ dataRowEl.year }}</td>
+          <td>{{ dataRowEl.title }}</td>
           <td>
-            Institute of Cybernetics of NAS of Azerbaijan <br />
-            Baku, AZERBAIJAN
-          </td>
-        </tr>
-        <tr>
-          <td>1983-1995</td>
-          <td>Assistant Professor</td>
-          <td>Azerbaijan State University<br />Baku, Azerbaijan</td>
-        </tr>
-        <tr>
-          <td>1995-present</td>
-          <td>Full Professor</td>
-          <td>Baku State University<br />Baku, Azerbaijan</td>
-        </tr>
-        <tr>
-          <td>2009-present</td>
-          <td>Full Professor, Senior Research Scientist</td>
-          <td>
-            ANAS, Institute of Mathematics and Mechanics<br />
-            Baku, Azerbaijan
-          </td>
-        </tr>
-        <tr>
-          <td>2014-present</td>
-          <td>Head of the department</td>
-          <td>
-            ANAS, Institute of Mathematics and Mechanics<br />
-            Baku, Azerbaijan
-          </td>
-        </tr>
-        <tr>
-          <td>2009-2018</td>
-          <td>Visitor Professor</td>
-          <td>
-            Ahi Evran University<br />
-            Kirsehir, Turkey
-          </td>
-        </tr>
-        <tr>
-          <td>2017-present</td>
-          <td>Visitor Professor, Head Researcher</td>
-          <td>
-            S.M. Nikolskii Institute of Mathematics at RUDN University<br />
-            Moscow, Russia
-          </td>
-        </tr>
-        <tr>
-          <td>2019-2022</td>
-          <td>Visitor Professor</td>
-          <td>
-            Dumlipinar University<br />
-            Kutahya, Turkey
-          </td>
-        </tr>
-        <tr>
-          <td>2024-present</td>
-          <td>Visitor Professor</td>
-          <td>
-            Ahi Evran University<br />
-            Kirsehir, Turkey
+            <span v-for="line in dataRowEl.university" :key="line">
+              {{ line }} <br />
+            </span>
           </td>
         </tr>
       </table>
 
-      <img :src="formula3" class="img_float_r img_frame" />
+      <img :src="data.image" class="img_float_r img_frame" />
 
       <div class="cleaner"></div>
     </div>
-    <!-- END of about -->
   </div>
 </template>
 

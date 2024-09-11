@@ -1,5 +1,7 @@
-<script>
-// import Swiper core and required modules
+<script setup>
+import { ref } from "vue";
+
+// Import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 
 // Import Swiper Vue.js components
@@ -11,72 +13,29 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-// Import Swiper styles
-export default {
-  components: {
-    Swiper,
-    SwiperSlide,
-  },
-  setup() {
-    const onSwiper = (swiper) => {
-      console.log(swiper);
-    };
-    const onSlideChange = () => {
-      console.log("slide change");
-    };
-    const images = ref([
-      "1-1.jpg",
-      "1-2.jpg",
-      "1-3.jpg",
-      "1-4.jpg",
-      "1-5.jpg",
-      "1-6.jpg",
-      "1-7.jpg",
-      "1-8.jpg",
-      "2-1.jpg",
-      "2-2.jpg",
-      "2-3.jpg",
-      "2-4.jpg",
-      "3-1.jpg",
-      "4.jpg",
-      "4-1.jpg",
-      "4-2.jpg",
-      "4-3.jpg",
-      "4-5.jpg",
-      "4-6.jpg",
-      "4-7.jpg",
-      "4-8.jpg",
-      "5-1.jpg",
-      "5.jpg",
-      "5-2.jpg",
-      "5-3.jpg",
-      "5-4.jpg",
-      "5-5.jpg",
-      "5-6.jpg",
-      "5-7.jpg",
-      "5-8.jpg",
-      "5-9.jpg",
-    ]);
-    const getImageSrc = (filename) => {
-      return new URL(`../assets/img/gallery/${filename}`, import.meta.url).href;
-    };
-    return {
-      onSwiper,
-      onSlideChange,
-      modules: [Navigation, Pagination, Scrollbar, A11y],
-      images,
-      getImageSrc,
-    };
-  },
+// Swiper event handlers
+const onSwiper = (swiper) => {
+  console.log(swiper);
 };
+
+const onSlideChange = () => {
+  console.log("slide change");
+};
+
+// Swiper modules
+const modules = [Navigation, Pagination, Scrollbar, A11y];
+
+const { data } = await useAsyncData("photo", () =>
+  queryContent("/photo").findOne()
+);
 </script>
 
 <template>
   <div id="tooplate_main">
-    <div id="about" class="main_box">
-      <h1 class="pho">Photos</h1>
-      Here you can find different photos from different conferences, seminars,
-      workshops and academic visits.
+    <div id="photo" class="main_box">
+      <h1 class="photo">Photos</h1>
+
+      <ContentDoc />
 
       <div class="demo-gallery">
         <swiper
@@ -89,8 +48,8 @@ export default {
           @swiper="onSwiper"
           @slideChange="onSlideChange"
         >
-          <swiper-slide v-for="img in images" :key="img">
-            <img :src="getImageSrc(img)" alt="" />
+          <swiper-slide v-for="img in data.images" :key="img">
+            <img :src="img" alt="" />
           </swiper-slide>
         </swiper>
       </div>

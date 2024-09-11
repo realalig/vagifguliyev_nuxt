@@ -5,7 +5,7 @@ export default defineNuxtConfig({
 
   // plugins: ['~/plugins/lightGallery.js'],
   modules: ['nuxt-swiper', '@nuxt/content', "@nuxt/image"],
-  css: ['./assets/css/tooplate_style.css'],
+  css: ['./assets/css/tooplate_style.css', "./assets/css/custom.css"],
   // modules: ['@nuxt/ui'],
   components: true,
   ssr: false,

@@ -1,61 +1,43 @@
 <script setup>
-const guliyevvagifpasswordphoto = new URL('@/assets/img/91-guliyev-vagif-passport-photo.jpg', import.meta.url).href
-const formula2 = new URL('@/assets/img/formula2.jpg', import.meta.url).href
+const { data } = await useAsyncData("education", () =>
+  queryContent("/education").findOne()
+);
 </script>
 
 <template>
   <div id="tooplate_main">
-    <div id="about" class="main_box">
+    <div id="education" class="main_box">
       <h1>Education</h1>
 
       <table style="width: auto">
         <tr>
-          <th>Degree</th>
-          <th>Department</th>
-          <td><strong>Dissertation/Thesis title</strong></td>
+          <th v-for="topRowEl in data.educationTable.topRow" :key="topRowEl">
+            {{ topRowEl }}
+          </th>
         </tr>
-        <tr>
-          <td>1978 - Bachelors and Masters</td>
+        <tr v-for="dataRowEl in data.educationTable.dataRows" :key="dataRowEl">
+          <td>{{ dataRowEl.degree }}</td>
+          <td>{{ dataRowEl.department }}</td>
           <td>
-            Faculty of Mechanics and Mathematics,<br />
-            Azerbaijan State University
-          </td>
-          <td>
-            Local property of the Cauchy<br />
-            integrals in curves
-          </td>
-        </tr>
-        <tr>
-          <td>1983 - Ph.D.</td>
-          <td>
-            Mathematical Analysis, Azerbaijan State<br />
-            University
-          </td>
-          <td>
-            Investigation of the anisotropic<br />
-            singular integral operators
-          </td>
-        </tr>
-        <tr>
-          <td>1994 - Doctorate</td>
-          <td>
-            Mathematical Analysis, V. Steklov<br />
-            Mathematical Institute, Academy of Science<br />
-            Russian Federation, Moscow
-          </td>
-          <td>
-            Integral operators in spaces of<br />
-            functions on homogeneous<br />
-            groups and areas at <i>R<sup>2</sup></i>
+            {{ dataRowEl.dissertation_thesisTitle }}
+            <span v-if="dataRowEl.formula"
+              ><i
+                >{{ dataRowEl.formula.base
+                }}<sup>{{ dataRowEl.formula.powerOf }}</sup></i
+              ></span
+            >
           </td>
         </tr>
       </table>
-      <img :src="guliyevvagifpasswordphoto" class="img_float_r img_frame" />
-      <img :src="formula2" class="img_float_r img_frame" />
+      <img
+        v-for="img in data.images"
+        :key="img"
+        :src="img"
+        class="img_float_r img_frame"
+      />
 
       <div class="cleaner"></div>
     </div>
-    <!-- END of about -->
   </div>
 </template>
 

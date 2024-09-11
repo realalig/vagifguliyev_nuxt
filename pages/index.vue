@@ -1,6 +1,5 @@
 <script setup>
 const { data } = await useAsyncData("index", () => queryContent("/").findOne());
-console.log(data);
 </script>
 <template>
   <div id="tooplate_main">
@@ -8,7 +7,7 @@ console.log(data);
       <div>
         <h1>Welcome to Official Site</h1>
         <img
-          :src="data.photo92"
+          :src="data.images.photo92"
           alt="image"
           class="img_frame img_float_l"
           width="221px"
@@ -36,7 +35,11 @@ console.log(data);
           target="_blank"
           title="PDF File CV Vagif Guliyev"
         >
-          <img :src="data.downloadpdfbutton1" height="60px" width="60px" />
+          <img
+            :src="data.images.downloadpdfbutton1"
+            height="60px"
+            width="60px"
+          />
         </a>
 
         <h3>
@@ -45,38 +48,32 @@ console.log(data);
 
         <div class="column-images">
           <a href="http://bsu.edu.az/en/" target="_blank"
-            ><img :src="data.bakuuniversity"
+            ><img :src="data.images.bakuuniversity"
           /></a>
           <a href="https://ahievran.edu.tr/" target="_blank"
-            ><img :src="data.ahievran" />
+            ><img :src="data.images.ahievran" />
           </a>
 
           <a
             href="http://www.rudn.ru/science/research-institutes/matematicheskiy-institut-im-s-nikolskogo"
             target="_blank"
-            ><img :src="data.rudn" />
+            ><img :src="data.images.rudn" />
           </a>
           <div class="row">
             <a
               href="http://www.science.gov.az/forms/chlenyikorrespondentyi/1364"
               target="_blank"
-              ><img :src="data.amea"
+              ><img :src="data.images.amea"
             /></a>
             <a
               href="http://www.imm.az/exp/jubilees/corresponding-member-of-anas-vagif-guliyev-is-60/?lang=en"
               target="_blank"
               class="vagif-and-imea"
-              ><img :src="data.VagifGuliyev60yubiley" /><img :src="data.imea"
+              ><img :src="data.images.VagifGuliyev60yubiley" /><img
+                :src="data.images.imea"
             /></a>
           </div>
         </div>
-
-        <!--
-			<h3><em>Related Links</em></h3>
-			<a href="http://www.science.gov.az/" target="_blank"|><img src="gallery2/amea2.jpg"></a>
-			<a href="http://www.imm.az/exp/?lang=en" target="_blank"| ><img src="gallery2/imea2.jpg"></a>
-		
-			 <a href="https://en.president.az/" target="_blank"| ><img src="gallery2/president.jpg"></a> -->
 
         <div class="cleaner h40"></div>
       </div>
