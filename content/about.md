@@ -22,8 +22,8 @@ aboutList:
     "Editor-in-chief of 2 journals",
     "Editor of 8 International journals",
     "Referee for 44 International Scientific journals",
-    "47 publications in Conferences",
-    "169 publications in International Refereed Journal Publications",
+    "57 publications in Conferences",
+    "223 publications in International Refereed Journal Publications",
     "45 publications in Azerbaijan Science Journals",
   ]
 areaOfInterest:

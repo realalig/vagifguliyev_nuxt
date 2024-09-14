@@ -11,10 +11,6 @@ links:
 
 ## Contact Details
 
-**Phone**: (994 12) 5397579
-
-**Mobile/Whatsapp:** (994 50) 2714090
-
 **Email:** [{{links.email}}](mailto:{{links.email}})
 
 **Website:** [guliyev.com](https://guliyev.com)

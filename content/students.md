@@ -183,7 +183,7 @@ title: "PhD & Doctorate Students - Prof. Dr. Vagif S. Guliyev"
     <br />
     <br />
 
-### <em>4 Doctorate students</em>
+### <em>5 Doctorate students</em>
 
 1.  <span>Bandaliyev R.A.</span>
 
@@ -217,3 +217,12 @@ title: "PhD & Doctorate Students - Prof. Dr. Vagif S. Guliyev"
     Integral operators of multidimensional harmonic analysis and B- harmonic analysis in generalized Morrey spaces and some applications.
 
     AZERBAIJAN, 2018, February 02
+
+      <br />
+      <br />
+
+5.  <span>Sabir Hasanov</span>
+
+    “Boundedness criteria of the fractional maximal, fractional integral operators and their commutators in Orlicz spaces and in generalized Orlicz-Morri spaces”
+
+    AZERBAIJAN, 2022, March 14
