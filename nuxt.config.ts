@@ -4,7 +4,13 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   // plugins: ['~/plugins/lightGallery.js'],
-  modules: ['nuxt-swiper', '@nuxt/content', "@nuxt/image", "@nuxthub/core"],
+  modules: [
+    'nuxt-swiper',
+    '@nuxt/content',
+    "@nuxt/image",
+    "@nuxthub/core",
+    '@nuxthq/studio'
+  ],
   css: ['./assets/css/tooplate_style.css', "./assets/css/custom.css"],
   // modules: ['@nuxt/ui'],
   components: true,
